@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>London Legacy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            line-height: 1.6;
+            overflow-x: hidden;
+            background: url('standard_1 (2).gif') no-repeat center center fixed;
+            background-size: cover;
+            height: 100vh;
+            margin: 0;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.6);
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 18px;
+            transition: color 0.3s ease;
+            padding: 10px 20px;
+            border-radius: 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        nav ul li a:hover {
+            color: #21c6f0;
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        .content {
+            display: flex;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .left-content {
+            flex: 2;
+            padding: 40px;
+            border-radius: 8px;
+            .left-content {
+    flex: 2;
+    padding: 40px;
+    border-radius: 8px;
+    background-color: rgba(133, 73, 110, 0.7); /* Adjust the alpha value to make the color more transparent */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    text-align: left;
+}
+
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            color: #fff;
+            text-align: left;
+        }
+
+        .right-content {
+            flex: 3;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        button {
+            display: inline-block;
+            padding: 18px 36px;
+            font-size: 18px;
+            font-weight: bold;
+            border: none;
+            border-radius: 8px;
+            background-color: #7289da;
+            color: #fff;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #6272a4;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <img src="image__1_-removebg-preview.png" alt="" style="width: 80px; height: auto; margin: 0 20px; vertical-align: middle;">
+        <h1 style="font-size: 36px; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 10px;">London Legacy RP</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="goals.html">Our Goals</a></li>
+                <li><a href="why-play.html">Why Play</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <div class="content">
+        <!-- Left Section with Text Content -->
+        <div class="left-content">
+            <h2>Welcome to London Legacy RP</h2>
+            <p>Explore an immersive GTA RP experience in London. Join our community!</p>
+            <!-- Button Container for Discord and Donate Buttons -->
+            <div style="display: flex; justify-content: center; margin-top: 20px;">
+                <!-- Connect Discord Button -->
+                <button onclick="connectDiscord()">Join Discord</button>
+                <!-- Donate Button -->
+                <button onclick="donate()" style="margin-left: 20px;">Donate via PayPal</button>
+            </div>
+        </div>
+        <!-- Right Section with Image -->
+        <div class="right-content">
+            <img src="png-transparent-grand-theft-auto-v-grand-theft-auto-san-andreas-xbox-360-gta-5-online-gunrunning-grand-theft-auto-vice-city-others-tshirt-playstation-4-video-game-removebg-preview.png" alt="GTA Character" style="width: 100%; height: auto;">
+        </div>
+    </div>
+
+    <!-- JavaScript for Discord Connection -->
+    <script>
+        function connectDiscord() {
+            window.location.href = 'https://discord.gg/87WuB6zxfQ';
+        }
+
+        function donate() {
+            window.location.href = 'https://www.paypal.com/paypalme/Bonsaiconoro';
+        }
+    </script>
+
+</body>
+</html>
